@@ -1,0 +1,36 @@
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr 0.8fr;
+    grid-template-areas:
+      "card01 card01 card02"
+      "card03 card04 card04" 
+      "card03 card05 card05";
+    grid-gap: 0.4rem;
+  }
+  
+  .card01{
+    background: #FE3A0F;
+    grid-area: card01;
+  }
+  
+  .card02{
+    background: #FFC300;
+    grid-area: card02;
+  }
+  
+  .card03{
+    background: #275C07;
+    grid-area: card03;
+  }
+  
+  .card04{
+    background: #0B8EB5;
+    grid-area: card04;
+  }
+  .card05{
+    background: #0B8EB5;
+    grid-area: card05;
+  }
